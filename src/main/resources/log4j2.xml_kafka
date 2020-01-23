@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WAR" packages="com.github.omkreddy.log4j2.appender">
+	<Appenders>
+		<Kafka name="KAFKALOGGER" topic="tipoc_name" enabled="true" syncSend="false" ignoreExceptions="true">
+			<Property name="bootstrap.servers">localhost:9092</Property>
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p [%c{1}:%L] %m%n</Pattern>
+			</PatternLayout>
+		</Kafka>
+		<!-- Console Appender -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p [%c{1}:%L] %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+	    <!-- Rolling File Appender -->
+	    <RollingFile name="RollingFile">
+	      <FileName>nohup.out</FileName>
+	      <FilePattern>rolling-logs/tokens-log-%d{yyyy-MM-dd}.log</FilePattern>
+	      <PatternLayout>
+	        <Pattern>%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n</Pattern>
+	      </PatternLayout>
+	      <Policies>
+	        <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+	      </Policies>
+	    </RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="KAFKALOGGER" />
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+	</Loggers>
+</Configuration>

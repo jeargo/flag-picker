@@ -1,0 +1,242 @@
+2019-dic-18 18:45:05 PM [restartedMain] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [b-2.izzi-microservices-dev.vial6h.c6.kafka.us-east-1.amazonaws.com:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-dic-18 18:47:06 PM [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [mx.uaemex.fi.acervooracle.AcervoOracleApplicationTests], using SpringBootContextLoader
+2019-dic-18 18:47:27 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:01:43 PM [restartedMain] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [b-2.izzi-microservices-dev.vial6h.c6.kafka.us-east-1.amazonaws.com:9092, b-1.izzi-microservices-dev.vial6h.c6.kafka.us-east-1.amazonaws.com:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-dic-18 19:02:04 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:02:43 PM [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 1.0.1
+2019-dic-18 19:03:25 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:03:43 PM [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : c0518aa65f25317e
+2019-dic-18 19:04:05 PM [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [mx.uaemex.fi.acervooracle.AcervoOracleApplicationTests], using SpringBootContextLoader
+2019-dic-18 19:04:26 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:05:05 PM [Test worker] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [mx.uaemex.fi.acervooracle.AcervoOracleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-dic-18 19:05:45 PM [restartedMain] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [b-2.izzi-microservices-dev.vial6h.c6.kafka.us-east-1.amazonaws.com:9092, b-1.izzi-microservices-dev.vial6h.c6.kafka.us-east-1.amazonaws.com:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-dic-18 19:06:06 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:06:45 PM [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 1.0.1
+2019-dic-18 19:07:27 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:07:45 PM [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : c0518aa65f25317e
+2019-dic-18 19:08:45 PM [restartedMain] INFO  mx.uaemex.fi.acervooracle.AcervoOracleApplication - Starting AcervoOracleApplication on LAPTOP-FU426H7I with PID 10864 (C:\Users\Vass\Documents\IZZI\acervo-oracle-master\bin\main started by Vass in C:\Users\Vass\Documents\IZZI\acervo-oracle-master)
+2019-dic-18 19:08:48 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:09:06 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:09:45 PM [restartedMain] INFO  mx.uaemex.fi.acervooracle.AcervoOracleApplication - No active profile set, falling back to default profiles: default
+2019-dic-18 19:10:09 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:10:27 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:10:45 PM [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2af721e: startup date [Wed Dec 18 19:10:45 CST 2019]; root of context hierarchy
+2019-dic-18 19:11:30 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:11:46 PM [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8199 (http)
+2019-dic-18 19:11:48 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:12:46 PM [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 120954 ms
+2019-dic-18 19:12:51 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:13:09 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:13:46 PM [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-dic-18 19:14:12 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:14:30 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:14:46 PM [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-dic-18 19:15:33 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:15:46 PM [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-dic-18 19:15:51 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:16:46 PM [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-dic-18 19:16:54 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:17:12 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:17:46 PM [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-dic-18 19:18:15 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:18:33 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:18:46 PM [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-dic-18 19:19:36 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:19:46 PM [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2af721e: startup date [Wed Dec 18 19:10:45 CST 2019]; root of context hierarchy
+2019-dic-18 19:19:54 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:20:46 PM [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/tokens/{account}],methods=[GET]}" onto public mx.uaemex.fi.acervooracle.modelo.Asesor mx.uaemex.fi.acervooracle.controlador.AsesorControlador.getTokens(java.lang.String,java.lang.String)
+2019-dic-18 19:20:57 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:21:15 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:21:46 PM [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-dic-18 19:22:18 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:22:36 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:22:46 PM [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-dic-18 19:23:39 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:23:46 PM [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-dic-18 19:23:57 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:24:46 PM [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-dic-18 19:25:00 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:25:18 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:25:46 PM [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-dic-18 19:26:21 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:26:39 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:26:46 PM [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-dic-18 19:27:42 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:27:46 PM [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8199 (http) with context path ''
+2019-dic-18 19:28:00 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:28:46 PM [restartedMain] INFO  mx.uaemex.fi.acervooracle.AcervoOracleApplication - Started AcervoOracleApplication in 1381.909 seconds (JVM running for 1382.884)
+2019-dic-18 19:29:03 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:29:21 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:30:24 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:30:42 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:31:45 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:32:03 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:33:06 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:33:20 PM [RMI TCP Connection(30)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-dic-18 19:33:24 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:34:20 PM [RMI TCP Connection(30)-127.0.0.1] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2af721e: startup date [Wed Dec 18 19:10:45 CST 2019]; root of context hierarchy
+2019-dic-18 19:34:27 PM [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 could not be established. Broker may not be available.
+2019-dic-18 19:34:45 PM [kafka-producer-network-thread | producer-2] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -2 could not be established. Broker may not be available.
+2019-dic-18 19:35:20 PM [RMI TCP Connection(30)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
